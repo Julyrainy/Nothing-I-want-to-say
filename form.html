@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Enter the Contest</title>
+    <link rel="stylesheet" type="text/css" href="starbuzz.css">
+    <link rel="stylesheet" type="text/css" href="contest.css">
+</head>
+
+<body>
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click "order now" to order</h2>
+    <form action="http://starbuzzcoffee.com/processorder.php" method="POST" id="table">
+        <div class="tableRow">
+            <p>
+                Choose your beans:
+            </p>
+
+            <p>
+            <select name="beans">
+              <option value="house">House Blend</option>
+              <option value="Shade">Shade Grown Bolivia</option>
+              <option value="Surpremo">Surpremp</option>
+           </select>
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Type:
+            </p>
+
+            <p>
+                <input type="radio" name="hey" value="Whole bean">Whole bean<br>
+                <input type="radio" name="hey" value="Ground" checked>Ground
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Number of bags:
+            </p>
+
+            <p>
+                <input type="number" name="bag" max="20" min="0">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Must arrive by date:
+            </p>
+
+            <p>
+                <input type="date" name="date">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Extras:
+            </p>
+
+            <p>
+                <input type="checkbox" name="checkhehe" value="Gift wrap">Gift wrap<br>
+                <input type="checkbox" name="checkhehe" checked value="Include catalog with order">Include catalog with order
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p class="heading">
+                Ship to:
+            </p>
+            <p></p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Name:
+            </p>
+
+            <p>
+                <input type="text" name="Name">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Address:
+            </p>
+
+            <p>
+                <input type="text" name="address">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                City:
+            </p>
+
+            <p>
+                <input type="text" name="city">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                State:
+            </p>
+
+            <p>
+                <input type="text" name="State">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Zip:
+            </p>
+
+            <p>
+                <input type="text" name="zip">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Phone:
+            </p>
+
+            <p>
+                <input type="tels" name="phone">
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>
+                Customer Comments:
+            </p>
+
+            <p>
+                <textarea name="comments" rows="25" cols="50"></textarea>
+              </p>
+        </div>
+
+        <div class="tableRow">
+          <p></p>
+            <p>
+                <input type="submit">
+            </p>
+
+        </div>
+    </form>
+</body>
+
+</html>
